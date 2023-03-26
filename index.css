@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    border: 0px solid orange;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #9e2a1d;
+    text-shadow: 2px 2px 5px #fd8700;
+    color: black;
+    border-bottom: 10px solid #0e0b07;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+@keyframes example {
+    from {color: black;}
+    to {color: #e50051;}
+  }
+
+h3:hover {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+h4:hover {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+p:hover {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
